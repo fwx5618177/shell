@@ -1,4 +1,9 @@
+目录：
+[TOC]
+***
+
 # 快捷办法
+
 - startPostfix: 快速启动Postfix
 - LookMailLog: 查看maillog
 - searchLog.sh：查看log中出错的地方
@@ -15,3 +20,4 @@
 - luserdel.pl: 是用来删除队列中无效用户的邮件的
 - moqdel.pl: 是用来删除队列中邮箱配额已满的用户的邮件的
 - jmoqdel.pl: 是删除邮箱配额已满的用户的垃圾邮件箱的
+- postcat.sh: 查看邮箱队列里邮件的内容
