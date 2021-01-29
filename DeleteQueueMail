@@ -1,0 +1,6 @@
+#!/sbin/sh
+#
+#	删除队列里的所有邮件
+#
+#
+postsuper -d ALL

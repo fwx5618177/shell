@@ -1,0 +1,6 @@
+#!/sbinsh
+#
+#	查看/var/log/maillog的日志
+#
+#
+tail -f /var/log/maillog
