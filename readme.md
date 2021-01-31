@@ -10,6 +10,7 @@
 - searchAttackerIp.sh: 获取非法攻击mail的ip,并且过滤
 - killIp.sh: same
 - encode_sasl_plain.pl: 测试base64字符串
+- ipt_tcp.sh: 防止DDos攻击
 
 # 邮箱队列管理
 - pfdel.pl: 是用来删除队列中指定用户的邮件的
