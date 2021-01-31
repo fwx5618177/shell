@@ -44,7 +44,7 @@ use Sys::Syslog qw(:DEFAULT setlogsock)
 #
 my $UID = 500;
 my $ENV_FROM = "";
-my $INFOFILE = "/home/autoresp/inforeply.txt";
+my $INFOFILE = "/etc/postfix/common/inforeply.txt";
 my $MAILBIN = "/usr/sbin/sendmail";
 my @MAILOPTS = ("-oi", "-tr", "$ENV_FROM");
 my $SELF = "inforeply.pl";
