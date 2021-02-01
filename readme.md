@@ -1,3 +1,6 @@
+# 本文件下工具
+- 所有文件遍历表.bat: 遍历所有文件，并且生成文件的列表
+
 # 快捷办法
 - startPostfix: 快速启动Postfix
 - LookMailLog: 查看maillog
@@ -25,3 +28,10 @@
 # 反垃圾邮件管理
 - RejectTrashMailConf.conf: main.cf反垃圾邮件配置
 
+# 常见shell
+- select循环和菜单.sh
+- 信号捕捉.sh
+- 国际象棋棋盘.sh
+- 并行执行.sh
+- 彩色等腰三角形.sh
+- 打印颜色字.sh
