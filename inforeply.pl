@@ -82,7 +82,7 @@ if ( @ARGV != 1 ) {
     if ( $sender =~ /([\w\-.%]+\@[\w.-]+)/ ) {
         $sender = $1;
     } else {
-        Syslog('mail|err', "error: Illegal sender address");
+        syslog('mail|err', "error: Illegal sender address");
         exit($EX_UNAVAILABLE);
     }
 }
